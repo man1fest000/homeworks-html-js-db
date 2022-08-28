@@ -1,0 +1,45 @@
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд. Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgba(52, 73, 94, 0.1  );
+}
+
+.info{
+    border:2px solid #34495e;
+    margin-bottom: 10px;
+}
+
+.info > div{
+    border:2px solid #34495e;
+    margin: 10px;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container > div {
+    margin: 5px;
+    border:2px solid #34495e;
+    width: calc(20% - 2 * 5px);
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container > div > div {
+    background: #ffffff;
+    border:2px solid #34495e;
+    padding: 10px;
+}

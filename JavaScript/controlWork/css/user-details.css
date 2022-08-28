@@ -1,0 +1,63 @@
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgba(52, 73, 94, 0.1  );
+}
+
+.info{
+    border:2px solid #34495e;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.info> div {
+    margin: 5px;
+    border:2px solid #34495e;
+    width: calc(50% - 2 * 5px);
+    padding: 10px;
+    background: #ffffff;
+    color: #34495e;
+}
+/* Кнопка по центру */
+.button{
+    width: 90%;
+    height: 50px;
+    display: block;
+    margin: 50px auto ;
+    background: #ffffff;
+    border:2px solid #34495e;
+    color: #34495e;
+    font-size: 18px;
+    transition:all .5s ease;
+}
+
+.button:hover{
+    background: #34495e;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container > div {
+    margin: 5px;
+    border:2px solid #34495e;
+    width: calc(20% - 2 * 5px);
+    padding: 20px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
