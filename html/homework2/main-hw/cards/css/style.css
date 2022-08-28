@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 0;
+
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.descr {
+    margin: 20px;
+    text-align: center;
+    color: #8a8a8a;
+
+}
+
+.button {
+    border: black solid 1px;
+    padding: 10px 30px;
+    background: #fff;
+    transition: 0.3s linear;
+}
+
+.button:hover {
+    background: aliceblue;
+}
+
+.button > a {
+    text-decoration: none;
+    color: black;
+}

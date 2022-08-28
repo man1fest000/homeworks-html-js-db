@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.users-box {
+    padding: 10px;
+    margin: 2px;
+    background-color: silver;
+    width: calc(50% - 3 * 2px);
+}

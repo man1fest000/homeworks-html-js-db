@@ -1,0 +1,30 @@
+table, th {
+    border: 1px solid black;
+}
+
+
+table {
+    width: 100%;
+}
+
+.timeStudy {
+    width: 50%;
+}
+
+/*Для someBlock*/
+.alpha {
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+/*Зникнення елементу*/
+#text {
+    font-size: 30px;
+    color: #6964E4;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}

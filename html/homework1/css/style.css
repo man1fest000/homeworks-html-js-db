@@ -1,0 +1,44 @@
+h1, h2{
+    background: #fec356;
+    color: #000;
+    text-align: center;
+}
+
+h2{
+    transition: 0.3s linear;
+}
+
+h2:hover{
+    color: #fff;
+    background: #f66d52; 
+}
+
+a{
+    text-decoration: none;
+    color: #000; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+p{
+    background: #fbe487;
+    color: #000;
+}
+
+ul{
+    background: #fec356;
+}
+
+li{
+    color: #000;
+    background: #fbe487;
+}
