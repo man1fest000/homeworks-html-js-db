@@ -30,9 +30,8 @@ body{
 .container > div {
     margin: 5px;
     border:2px solid #34495e;
-    width: calc(20% - 2 * 5px);
+    width: calc(25% - 2 * 5px);
     padding: 20px;
-    
     display: flex;
     flex-direction: column;
     gap: 10px;
